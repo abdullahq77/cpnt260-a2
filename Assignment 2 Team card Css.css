@@ -1,0 +1,87 @@
+/* Positioning the card and lining it up */
+
+.card {
+  min-width: 20ch;
+  max-width: 40ch;
+  
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  
+  border: 1px solid grey;
+  background-color: #ebebeb;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: .5rem
+}
+
+/* Changing colours, making images fit into place and shaping them */
+
+.card-img {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  height: 10rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 66% 62%, 39% 63%, 29% 100%, 0 100%, 0% 35%, 0 0);
+}
+
+.profile-img {
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -80px;
+  z-index: 100; 
+  border: 0.5rem solid #ebebeb;
+} 
+
+
+.icons {
+  width: 100%;
+  list-style: none;
+ 
+  display: flex;
+  gap: 2em;
+  justify-content: space-evenly;
+  padding: 0.5rem 0;
+  
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,.1); 
+}
+
+.icons i { 
+  font-size: 2.5rem;
+  color: #1d378f;
+}
+
+
+h1 {
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  
+  margin: 0.5rem;
+}
+
+.card p {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  
+  text-align: center;
+  margin: 0.3rem;
+}
+
+/*Resets*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
