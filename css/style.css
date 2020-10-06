@@ -10,9 +10,9 @@
   align-items: center;
   justify-content: center;
   
-  border: 1px solid grey;
-  
   background-color: #ebebeb;
+  
+  box-shadow: .2rem .2rem .2rem .2rem rgba(0,0,0,0.2);
 }
 
 .card-wrapper {
@@ -21,8 +21,6 @@
   align-items: center;
   align-content: center;
   justify-content: center;
-  
-  box-shadow: .5rem
 }
 
 /* Changing colours, making images fit into place and shaping them */
