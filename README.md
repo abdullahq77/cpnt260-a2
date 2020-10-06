@@ -10,7 +10,7 @@ Making the light vertical line above the icons was also an obstacle, but google 
 added it in a ul tag. Had a hard time separating CSS, so I just grouped the similar declarations and spaced out the different ones. 
 
 ## Attributions
-I used [Sample Code] (https://github.com/sait-wbdv/sample-code/tree/master/frontend) from here
+I used [Sample Code](https://github.com/sait-wbdv/sample-code/tree/master/frontend) from here
 
 ### GitHub Pages Link
-My GitHub Pages site is [abdullahq77 github.io cpnt260-a2] (https://abdullahq77.github.io/cpnt260-a2/)
+My GitHub Pages site is [abdullahq77 github.io cpnt260-a2](https://abdullahq77.github.io/cpnt260-a2/)
